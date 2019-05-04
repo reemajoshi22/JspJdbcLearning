@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <servlet>
+    <servlet-name>Login_Controller</servlet-name>
+    <jsp-file>/login.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test Servlet</servlet-name>
+    <url-pattern>/test/*</url-pattern>
+  </servlet-mapping>
+</web-app>
